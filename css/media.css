@@ -1,0 +1,644 @@
+@media (max-width:768px) {
+
+    .header-container {
+        width: 90%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #banner {
+        height: 600px;
+    }
+
+    .banner-container {
+        width: 90%;
+    }
+
+    .banner-box {
+        width: 100%;
+    }
+
+
+    .client-info-container {
+        width: 90%;
+        text-align: center;
+        grid-template-columns: auto auto auto;
+    }
+
+
+    .about-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+.about-left{
+    text-align: center;
+}
+    .about-right {
+        grid-template-columns: auto auto;
+        text-align: center;
+
+    }
+
+    .count-info-container {
+        width: 90%;
+        grid-template-columns: auto auto;
+    }
+
+    .tab-container {
+        width: 90%;
+    }
+
+    .tab-box {
+        padding: 10px;
+    }
+
+    .tab-box i {
+        font-size: 30px;
+        margin: 5px 20px;
+    }
+
+    .tab-box h3 {
+        display: none;
+    }
+
+    .tab-content-container {
+        width: 90%;
+        grid-template-columns: auto;
+        box-sizing: border-box;
+    }
+
+    .services-container {
+        width: 90%;
+    }
+
+    .service-content {
+        grid-template-columns: auto auto;
+    }
+
+    .portfolio-container {
+        width: 90%;
+    }
+
+    .portfolio-content {
+        grid-template-columns: auto auto;
+    }
+
+    .testimonials-container {
+        width: 90%;
+    }
+
+    .testimonials-title h4 {
+        font-size: 32px;
+    }
+
+    .testimonials-title p {
+        font-size: 14px;
+    }
+
+    .card {
+        margin: auto;
+
+    }
+
+    .pricing-container {
+        width: 90%;
+    }
+
+    .pricing-content {
+        grid-template-columns: auto auto;
+    }
+
+    .team-container {
+        width: 90%;
+        
+    }
+    .team-content{
+        grid-template-columns: auto auto;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    .contact-content {
+       grid-template-columns: auto;
+    }
+
+    .footer-container {
+        width: 90%;
+        grid-template-columns: auto auto;
+    }
+
+
+    .down-container {
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .banner-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-box h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-box h4 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .client-info-container {
+        width: 90%;
+        text-align: center;
+        grid-template-columns: auto auto auto;
+    }
+
+    .client-box img {
+        width: 100px;
+        height: auto;
+    }
+
+    .about-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+
+    .about-left h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .about-left p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .about-right {
+        grid-template-columns: auto;
+        text-align: center;
+
+    }
+
+    .about-info i {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .about-info h5 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .about-info p {
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+
+    .count-info-container {
+        grid-template-columns: auto;
+    }
+
+    .count-info-container i {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .number h6 {
+        margin-top: 10px;
+    }
+
+    .number p {
+        margin-top: 10px;
+    }
+
+    .tab-container {
+        width: 90%;
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+
+    .tab-box {
+        padding: 10px;
+    }
+
+    .tab-box i {
+        font-size: 30px;
+        margin: 5px 20px;
+    }
+
+    .tab-box h3 {
+        display: none;
+    }
+
+    .tab-content-container {
+        width: 90%;
+        grid-template-columns: auto;
+        box-sizing: border-box;
+        margin: 5px 10px;
+
+    }
+
+    .tab-content-right img {
+        order: 1;
+    }
+
+    .tab-content-left p {
+        order: 2;
+    }
+
+    .services-container {
+        width: 90%;
+    }
+
+    .service-title h6 {
+        font-size: 32;
+    }
+
+    .service-title p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .service-content {
+        grid-template-columns: auto;
+    }
+
+    .portfolio-container {
+        width: 90%;
+    }
+
+    .portfolio-content {
+        grid-template-columns: auto;
+    }
+
+    .potfolio-title h5 {
+        font-size: 32px;
+    }
+
+    .potfolio-title p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .testimonials-container {
+        width: 90%;
+    }
+
+    .testimonials-title h4 {
+        font-size: 32px;
+    }
+
+    .pricing-container {
+        width: 90%;
+    }
+
+    .pricing-content {
+        grid-template-columns: auto;
+    }
+
+    .pricing-title h6 {
+        font-size: 32px;
+    }
+
+    .pricing-info h4 {
+        font-size: 15px;
+    }
+
+    .pricing-info h5 {
+        font-size: 20px;
+    }
+
+    .questions-container {
+        width: 90%;
+    }
+
+    .questions-title h2 {
+        font-size: 32px;
+
+    }
+
+    .question-content ul li {
+        margin-top: 20px;
+    }
+
+    .team-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+
+    .team-title h4 {
+        font-size: 32px;
+
+    }
+
+    .team-title p {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    .contact-content {
+    
+        grid-template-columns: auto;
+    }
+
+    .contact-title h4 {
+        font-size: 32px;
+    }
+
+    .form-control button {
+        margin: 10px 145px;
+    }
+
+    .contact-title p {
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .info {
+        grid-template-columns: auto;
+    }
+
+    .footer-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+
+    .address{
+        width: 80%;
+    }
+    .email{
+        width: 80%;
+    }
+    .call{
+        width: 80%;
+    }
+    .contact-form{
+        width: 70%;
+    }
+
+    .down-container {
+        grid-template-columns: auto;
+    }
+
+    .container-box p {
+        text-align: center;
+    }
+
+    .container-box p a {
+        color: var(--color2);
+    }
+
+    .link-box {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:376px) {
+
+    .header-container {
+        width: 90%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #banner {
+        height: 500px;
+    }
+
+    .banner-container {
+        width: 90%;
+    }
+
+    .banner-box {
+        width: 100%;
+    }
+
+    .banner-box h1 {
+        font-size: 28px;
+    }
+
+    .banner-box h4 {
+        font-size: 20px;
+    }
+
+    .client-info-container {
+        width: 90%;
+        text-align: center;
+        grid-template-columns: auto auto;
+    }
+
+
+    .about-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+
+    .about-left h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about-left p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .about-left a button {
+        text-align: center;
+    }
+
+    .about-right {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .count-info-container {
+        width: 90%;
+        grid-template-columns: auto;
+        margin-top: 10%;
+    }
+
+    .count-info-container i {
+        margin-top: 10%;
+    }
+
+    .tab-container {
+        width: 90%;
+        grid-template-columns: 20% 20% 20% 20%;
+
+
+    }
+
+    .tab-box i {
+        text-align: center;
+    }
+
+    .tab-box h3 {
+        display: none;
+    }
+
+    .tab-box {
+        padding: 5px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .tab-box i {
+        font-size: 30px;
+    }
+
+    .tab-content-container {
+        width: 90%;
+        grid-template-columns: auto;
+        box-sizing: border-box;
+
+    }
+
+    .tab-content-right img {
+        order: 1;
+    }
+
+    .tab-content-left p {
+        order: 2;
+    }
+
+    .services-container {
+        width: 90%;
+    }
+
+    .service-content {
+        grid-template-columns: auto;
+    }
+
+    .service-title h6 {
+        font-size: 38;
+    }
+
+    .service-title p {
+        font-size: 16;
+    }
+
+    .portfolio-container {
+        width: 90%;
+    }
+
+    .portfolio-content {
+        grid-template-columns: auto;
+    }
+
+    .potfolio-title h5 {
+        font-size: 32px;
+    }
+
+    .potfolio-title p {
+        font-size: 15px;
+    }
+
+    .testimonials-container {
+        width: 90%;
+    }
+
+    .testimonial-item {
+        flex-direction: column;
+    }
+
+    .testimonials-title h4 {
+        font-size: 32px;
+    }
+
+    .pricing-container {
+        width: 90%;
+    }
+
+    .pricing-content {
+        grid-template-columns: auto;
+    }
+
+    .pricing-title h6 {
+        font-size: 32px;
+    }
+
+    .pricing-info h4 {
+        font-size: 15px;
+    }
+
+    .pricing-info h5 {
+        font-size: 20px;
+    }
+
+    .questions-container {
+        width: 90%;
+    }
+
+    .questions-title h2 {
+        font-size: 32px;
+    }
+
+    .team-container {
+        width: 90%;
+      }
+    .team-content{
+        grid-template-columns: auto;
+    }
+    .team-title h4 {
+        font-size: 32px;
+
+    }
+
+    .team-title p {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    .contact-content{
+     grid-template-columns: auto;
+    }
+
+    .contact-title h4 {
+        font-size: 32px;
+    }
+
+    .contact-title p {
+        font-size: 16px;
+    }
+
+    .info {
+        grid-template-columns: auto;
+    }
+    .address{
+        width: 70%;
+    }
+    .email{
+        width: 70%;
+    }
+    .call{
+        width: 70%;
+    }
+    .contact-form{
+        width: 70%;
+    }
+    .footer-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+   
+    .down-container {
+        grid-template-columns: auto;
+    }
+
+}
